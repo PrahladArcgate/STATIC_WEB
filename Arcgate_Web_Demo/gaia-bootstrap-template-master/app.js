@@ -9,7 +9,7 @@ const port = process.env.PORT || 5000
 app.set("view engine", "ejs");
 app.use(express.static("assets"));
 app.use(bodyParser.urlencoded({ extended: true }));
-app.get("/", function (req, res) {
+app.get("/freebie", function (req, res) {
   res.render("freebie");
 //   console.log(req.socket.remoteAddress);
 //   console.log(req.ip);
