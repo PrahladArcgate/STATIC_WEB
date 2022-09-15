@@ -3,7 +3,9 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const encodeUrl = bodyParser.urlencoded({ extended: false });
 const app = express();
-const port = 5000;
+
+const port = process.env.PORT || 5000
+
 app.set("view engine", "ejs");
 app.use(express.static("assets"));
 app.use(bodyParser.urlencoded({ extended: true }));

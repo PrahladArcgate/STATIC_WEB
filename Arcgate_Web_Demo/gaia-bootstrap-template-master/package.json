@@ -106,7 +106,7 @@
     "wordwrap": "^1.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"node /home/arcgate/Desktop/Demo_final_Calculator-project/Static_web/Arcgate_Web_Demo/gaia-bootstrap-template-master/app.js"
   },
   "author": "",
   "license": "ISC"
